@@ -1,0 +1,270 @@
+a, a:hover {
+    color: #329CC3;
+}
+
+body{
+    margin-top: 57px;
+    background-color: #e6ecf0;
+}
+
+.navbar-brand i {
+    background-color: #fff;
+    border-bottom: 1px solid #999;
+}
+.navbar-brand{
+    margin: 0px auto;
+    position: relative;
+    left: -25px;
+     
+}
+
+.navbar-brand i {
+    color: aqua;
+}
+
+#search{
+    background-color: #f5f8fa;
+    border-radius: 20px;
+    border:1px solid #e6ecf0;
+}
+
+#search:focus{
+    background-color: #fff;
+    border: 2px solid #1da1f2;
+    box-shadow: none;
+
+}
+
+.post-button{
+    background-color: #329CC3;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+}
+
+.post-button:hover{
+    background-color:#31809E;
+}
+
+#cover_photo-wrapper{
+    height: 500px;
+    border-bottom: 2px solid rgb(7, 7, 7);
+    overflow: hidden;
+}
+
+#cover_photo-wrapper img{
+    width: 100%
+}
+
+#profile_photo-wrapper{
+    background-color: #fff;
+    border-bottom: 2px solid rgb(104, 96, 96);
+    height: 60px;
+    position: relative;
+}
+#profile-photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 5px solid #fff;
+    position: absolute;
+    top: -110px;
+}
+/* each is a link - posts, followers,following,likes*/
+.profile-stats{
+    float: left;
+    text-align: center;
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    text-decoration: none;
+    color: #666;
+    font-size: 0.8em;
+}
+
+.profile-stats:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #31809E;
+    color: #666;
+}
+
+.profile-stats:hover span{
+    color: #31809E;
+}
+.profile-stats span{
+    display: block;
+    margin: 0px auto;
+    font-size: 1.4em;
+    color: #444;
+    position: relative;
+    top: -4px0;
+
+}
+
+#follow_button{
+    border-color: #31809E;
+    color: #31809E;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100px;
+    font-weight:bold;
+    font-size: 0.8em;    
+}
+
+#follow_button:hover{
+    background-color: #E5F2F7;
+}
+
+#profile{
+    margin-top: 35px;
+}
+
+#profile h1{
+    color: #222;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#profile h1 .fa{
+    color: #1da1f2;
+}
+
+#profile h2{
+    font-size: 1em;
+    color: #666;
+    font-weight: normal;
+    position: relative;
+    top:-6px;
+}
+
+#profile p{
+    margin-top: 6px;
+    font-size: 15px;
+}
+
+#profile span{
+    display:block;
+    color:#666;
+    font-size: 0.9em;
+    margin-bottom: 4px;
+}
+
+#profile span .fa{
+    width: 15px;
+}
+
+#profile .message-button{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 71%;
+}
+#follower-profile-photos img {
+    border-radius: 25px;
+    margin-bottom: 4px;
+}
+
+#photos-and-videos img{
+    width: 32%;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+    
+#posts > nav{
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 10px 0px;
+    border-bottom: 1px solid #e6ecf0;
+}
+
+#posts > nav{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#posts > nav a.active{
+    color: #222;
+}
+
+#posts > nav a.hover{
+    text-decoration: underline;
+}
+
+#posts article{
+    background-color: #fff;
+    border-bottom: 1px solid #efecef;
+    padding: 15px;
+}
+
+#posts article:hover{
+    background-color: #f5f8fa;
+}
+
+#posts .profile-thumbnail{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+#posts .post-body{
+    font-size: 0.9em;
+}
+
+#posts .post-username .username-name{
+    color: #222;
+    font-weight: bold;
+}
+
+#posts .post-username:hover{
+    text-decoration: none;
+}
+
+#posts .post-username:hover .username-name{
+    text-decoration: underline;
+    color: #1da1f2;
+}
+
+#posts .post-username .fa{
+    color: #1da1f2;
+}
+
+#posts .post-username .username-handle{
+    color:#666;
+    font-weight: normal;
+}
+
+#posts .post-body nav a{
+    color: #657786;
+    padding: 0px 6px;
+}
+
+#posts .post-body nav a.fa{
+    margin-right: 5px;
+}
+
+#posts .post-body nav a:hover{
+    text-decoration: none;
+}
+
+#posts .post-body nav a:hover.comments,
+#posts .post-body nav a:hover.email{
+    color: #1da1f2;
+}
+
+#posts .post-body nav a:hover.hearts{
+    color: #1da1f2;
+}
+
+#posts .post-body img{
+    width: 100%;
+    border-radius: 5px;
+    height: 600px;
+    border: 1px solid #e6ecf0;
+    margin-bottom: 10px;
+}
+
+
+
+
+
